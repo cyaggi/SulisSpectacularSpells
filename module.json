@@ -1,40 +1,30 @@
-{   
-   "name": "sulis-spectacular-spells",   
-   "title": "Suli's Spectacular Spells",   
-   "description": "Curtis' mods and spells for Tsu Campaign",   
-   "author": "Curtis",
-   "version": "1.0.0",
-   "minimumCoreVersion": "0.8.6",
-   "compatibleCoreVersion":"10.219",
-"packs": [
-    {         
-   	"name": "menutriggers",
-   	"label": "Menu Triggers",
-   	"path": "packs/ship-menu-triggers.db",
-   	"entity": "JournalEntry",
-   	"module": "Suli's Spells"
+{
+    "name": "sulis-spectacular-spells",
+    "title": "Suli's Spectacular Spells",
+    "author": "Curtis",
+    "description": "Curtis' spells and mods for Tsu Campaign.",
+    "packs": [
+        {
+            "name": "sulis-spectacular-spells",
+            "label": "Suli's Spectacular Spells",
+            "type": "Adventure",
+            "system": "dnd5e",
+            "path": "packs/sulis-spectacular-spells.db",
+            "entity": "Adventure",
+            "module": "sulis-spectacular-spells"
+        }
+    ],
+    "id": "sulis-spectacular-spells",
+    "authors": [
+        {
+            "name": "Curtis"
+        }
+    ],
+    "minimumCoreVersion": "0.8.0",
+    "compatibleCoreVersion": "9",
+    "compatibility": {
+        "minimum": 9,
+        "verified": 10
     },
-    {
-      "name": "buttons",
-      "label": "Menu buttons",
-      "path": "packs/ship-menu-btns.db",
-      "entity": "Actor",
-      "module": "Suli's Spells"
-    },
-    {
-      "name": "scenes",
-      "label": "Ship Menu Scenes",
-      "path": "packs/ship-menu-scenes.db",
-      "entity": "Scene",
-      "module": "Suli's Spells"
-    },
-    {
-      "name": "macros",
-      "label": "Ship Menu Macros",
-      "path": "packs/ship-menu-macros.db",
-      "entity": "Macro",
-      "module": "ShipMenu"
-    }
-
-  ]
- }
+    "version": "1.1"
+}
