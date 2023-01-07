@@ -1,23 +1,48 @@
 {
     "name": "sulis-spectacular-spells",
     "title": "Suli's Spectacular Spells",
-    "author": "Curtis",
-    "description": "Curtis' spells and mods for Tsu Campaign.",
+    "author": "KaatisSensei",
+    "description": "Curtis' upgrades for Tsu Campaign",
     "packs": [
         {
-            "name": "sulis-spectacular-spells",
-            "label": "Suli's Spectacular Spells",
-            "type": "Adventure",
+            "name": "amazing-actors",
+            "label": "Amazing Actors",
+            "type": "Actor",
             "system": "dnd5e",
-            "path": "packs/sulis-spectacular-spells.db",
-            "entity": "Adventure",
+            "path": "packs/amazing-actors.db",
+            "entity": "Actor",
+            "module": "sulis-spectacular-spells"
+        },
+        {
+            "name": "spectacular-spells",
+            "label": "Spectacular Spells",
+            "type": "Item",
+            "system": "dnd5e",
+            "path": "packs/spectacular-spells.db",
+            "entity": "Item",
+            "module": "sulis-spectacular-spells"
+        },
+        {
+            "name": "scintillating-scenes",
+            "label": "Scintillating Scenes",
+            "type": "Scene",
+            "path": "packs/scintillating-scenes.db",
+            "entity": "Scene",
+            "module": "sulis-spectacular-spells"
+        },
+        {
+            "name": "magnificent-macros",
+            "label": "Magnificent Macros",
+            "type": "Macro",
+            "path": "packs/magnificent-macros.db",
+            "entity": "Macro",
             "module": "sulis-spectacular-spells"
         }
     ],
     "id": "sulis-spectacular-spells",
     "authors": [
         {
-            "name": "Curtis"
+            "name": "KaatisSensei"
         }
     ],
     "minimumCoreVersion": "0.8.0",
@@ -26,8 +51,8 @@
         "minimum": 10.270,
         "verified": 10.291
     },
-    "version": "1.0.1"
+    "version": "1.1.0",
 	 "url": "https://github.com/cyaggi/SulisSpectacularSpells/",
 	 "manifest": "https://github.com/cyaggi/SulisSpectacularSpells/releases/latest/download/module.json",
-	 "download": "https://github.com/cyaggi/SulisSpectacularSpells/releases/download/1.0.1/sulis_spectacular_spells.zip"
+	 "download": "https://github.com/cyaggi/SulisSpectacularSpells/releases/download/1.1.0/sulis_spectacular_spells.zip"
 }
